@@ -1,0 +1,82 @@
+---
+title: 'About'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'about/'
+eleventyNavigation:
+    key: About Us
+    order: 200
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/about.css">
+{% endblock %}
+
+{% block body %}
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">About Us</h1>
+        <picture>
+            <source media="(max-width: 600px)" srcset="/assets/images/desert.jpeg">
+            <source media="(min-width: 601px)" srcset="/assets/images/desert.jpeg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/desert.jpeg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+        </picture>
+
+    </section>
+
+    <!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+    <section id="sbs">
+        <div class="cs-container">
+            <!-- Left Image Section -->
+            <div class="cs-left">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/gang.jpeg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/gang.jpeg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/gang.jpeg" alt="cabinets" loading="lazy" width="400" height="563">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/logo.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/logo.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/logo.jpg" alt="house" loading="lazy" width="400" height="563">
+                </picture>
+            </div>
+            <!-- Right Content Section-->
+            <div class="cs-right">
+                <span class="cs-topper">About Us</span>
+                <h2 class="cs-title">About Company Desert Devs</h2>
+                <p class="cs-text">
+                    
+Desert Devs is a small, family-owned business based in Scottsdale, AZ, with a passion for empowering smaller companies to thrive in the digital age. Our main focus is helping businesses stay active and competitive amid the rapid growth of web technology and marketing trends. We are dedicated to providing exceptional service, tailoring our solutions to meet the unique needs of each client. By choosing us, you gain a committed partner who will help you expand, profit, and navigate the complexities of the digital landscape with ease. Experience the personalized support and unwavering dedication that sets Desert Devs apart from the rest.
+                </p>
+                <p class="cs-text">
+                </p>
+                <div class="cs-flex-group">
+                    <p class="cs-flex-p">
+                        We bring the best to the table while also taking in input making the website go above and beyond.
+                    </p>
+                    <span class="cs-name">Griffen Bock</span>
+                    <span class="cs-job">CEO-Founder</span>
+                    <img 
+                    class="cs-quote-icon"
+                    loading="lazy"
+                    decoding="async"
+                    src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg"
+                    alt="gavel"
+                    width="136"
+                    height="77" />
+                </div>
+                <a href="/about" class="cs-button-solid">More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}
