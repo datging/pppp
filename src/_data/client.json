@@ -1,14 +1,12 @@
 {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Desert Devs",
+    "email": "griffenbock@gmail.com",
+    "phoneForTel": "480-758-7771",
+    "phoneFormatted": "(480) 758-7771",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip": "85260",
         "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
     },
     "domain": "https://www.codestitch.app"
