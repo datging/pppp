@@ -11,7 +11,7 @@
     /* changes on tablet */
     padding: 0 1rem;
     padding-bottom: 6.25rem;
-    position: relative;
+
     z-index: 1;
     /* prevents overflow from the lines extending past the screen width */
     overflow: hidden;
